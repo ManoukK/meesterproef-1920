@@ -1,9 +1,9 @@
 # Meesterproef @cmda-minor-web 1920
 
 ## Het team
-- [Manouk Kappé](https://github.com/ManoukK)
 - [Mohamad Al Ghorani](https://github.com/MohamadAlGhorani)
 - [Wouter van der Heijde](https://github.com/Mokerstier)
+- [Manouk Kappé](https://github.com/ManoukK)
 
 ## Github repository 
 https://github.com/Mokerstier/Rijksmuseum-Ticketflow
