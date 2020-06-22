@@ -23,6 +23,12 @@ https://github.com/Mokerstier/Rijksmuseum-Ticketflow
 ### Uitprobeersels
 
 ### Onderzoeken
+Voor dit project heb ik twee onderzoeken gedaan die waardevol waren. De eerste onderzoek gaat over de huidige ticketflow van het Rijksmuseum en hoe toegankelijk deze is voor de screenreader. Dankzij dit onderzoek kregen wij een goede eerste indruk wat zich nu afspeelt en wat wij moeten verbeteren. Ook heeft dit ons goed geholpen met de eerste stappen zetten naar een toegankelijke en vriendelijke ticketflow. 
+
+Het tweede onderzoek heb ik halverwege dit project gedaan, voordat we begonnen met het implementeren van aria. Ik heb gekeken naar wat er allemaal mogelijk is met aria en daaruit heb ik de dingen eruit gehaald die wij goed konden gebruiken. Dit onderzoek zorgde ervoor dat we tijdens het implementeren snel even een beknopte documentatie konden lezen om te weten hoe het werkt. De schilde veel tijd en discussie. Soms wat een aria iets ingewikkelder en zochten we uiteindelijk wel naar uitgebreidere documentatie online. Dit onderzoek zorgde er ook voor dat we sneller konden beginnen met het implementeren. We wisten al van te voren globaal waar we wat konden gebruiken. Ook dit scheelde veel tijd. 
+
+- [Onderzoek met de screenreader](https://github.com/ManoukK/meesterproef-1920/wiki/Ticketflow-screen-reader-toetsenbord-onderzoek)
+- [Wat we kunnen gebruiken wat betreft toegankelijkheid (Aria onderzoek)](https://github.com/ManoukK/meesterproef-1920/wiki/Wat-kunnen-wij-gebruiken-om-het-toegankelijker-te-maken-(met-aria))
 
 ### Gemaakte schetsen 
 
