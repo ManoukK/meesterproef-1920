@@ -5,8 +5,8 @@
 - [Wouter van der Heijde](https://github.com/Mokerstier)
 - [Manouk Kappé](https://github.com/ManoukK)
 
-## Github repository 
+## Github repository & design rationale 
 https://github.com/Mokerstier/Rijksmuseum-Ticketflow
 
-## Documentatie 
+## Product biografie
 https://github.com/ManoukK/meesterproef-1920/wiki
