@@ -15,7 +15,7 @@ Elke dag heb ik (geprobeerd) bij te houden wat ik die dag heb gedaan. Niet altij
 
 Mocht je het niet helemaal willen lezen, hieronder beschrijf ik mijn rol binnen het team en het project. Dit slaat goed op mijn logboek en zo krijg je met iets minder leeswerk een duidelijk beeld van wat ik heb gedaan tijdens deze 5 weken.  
 
-[Logboek](https://github.com/ManoukK/meesterproef-1920/wiki/Logboek)
+[Bekijk hier mijn Logboek](https://github.com/ManoukK/meesterproef-1920/wiki/Logboek)
 
 ### Mijn rol binnen het team en het project
 
