@@ -1,4 +1,6 @@
-# Meesterproef - Rijksmuseum ticketflow
+# Meesterproef - Rijksmuseum ticketflow - Product biografie
+### Inhoudsopgave
+
 ### Het team
 - [Mohamad Al Ghorani](https://github.com/MohamadAlGhorani)
 - [Wouter van der Heijde](https://github.com/Mokerstier)
@@ -6,9 +8,6 @@
 
 ### Github repository & design rationale 
 https://github.com/Mokerstier/Rijksmuseum-Ticketflow
-
-# Product biografie
-### Inhoudsopgave
 
 ### Logboek
 Elke dag heb ik (geprobeerd) bij te houden wat ik die dag heb gedaan. Niet altijd is mij dit even goed gelukt en ik zal misschien sommige dagen ook een paar dingen hebben gedaan die niet in het logboek staan maar zo krijg je wel een goede indruk van mijn dagen. 
