@@ -11,6 +11,13 @@ https://github.com/Mokerstier/Rijksmuseum-Ticketflow
 ### Inhoudsopgave
 
 ### Logboek
+Elke dag heb ik (geprobeerd) bij te houden wat ik die dag heb gedaan. Niet altijd is mij dit even goed gelukt en ik zal misschien sommige dagen ook een paar dingen hebben gedaan die niet in het logboek staan maar zo krijg je wel een goede indruk van mijn dagen. 
+
+Mocht je het niet helemaal willen lezen, hieronder beschrijf ik mijn rol binnen het team en het project. Dit slaat goed op mijn logboek en zo krijg je met iets minder leeswerk een duidelijk beeld van wat ik heb gedaan tijdens deze 5 weken.  
+
+[Logboek](https://github.com/ManoukK/meesterproef-1920/wiki/Logboek)
+
+### Mijn rol binnen het team en het project
 
 ### Het proces
 
@@ -19,6 +26,16 @@ https://github.com/Mokerstier/Rijksmuseum-Ticketflow
 ### De planning
 
 ### Testen met screen reader gebruikers
+Om tot een goed, bruikbaar prototype te komen hebben we getest met 3 verschillende screenreader gebruikers. Ik heb hiervoor een testplan geschreven en was ik ook degene die de gesprekken leidden. Dit was namelijk een van mijn leerdoelen die ik wilde behalen. 
+
+Alle tests zijn opgenomen met toestemming van de testers. Daarnaast hebben Wouter en Mohamad mee geschreven en notities gemaakt. Uit deze notities heb ik nog een korte samenvatting per test geschreven die je hieronder kan lezen. Uit de notities hebben wij gekeken wat de problemen waren en of dat iets is wat we moesten oplossen. Niet alle problemen waren op te lossen. Soms kon dat technisch gewoon stomweg niet en soms was het iets wat iemand persoonlijk graag wilde zien. Omdat we voor iedereen ontwerpen moesten we erop letten dat het geen exclusive design werd.
+
+Het testen was enorm interessant en erg waardevol geweest voor ons prototype. Hierdoor hebben we veel meer stappen kunnen maken dan we zelf konden bedenken. Het testen zorgde voor meer issues in onze repo maar ook voor een veel sterker en waardevoller eindproduct naar de opdrachtgevers toe. 
+
+- [Het testplan](https://github.com/ManoukK/meesterproef-1920/wiki/Test-plan:-Rijksmuseum-ticketflow)
+- [Testen met Hannes](https://github.com/ManoukK/meesterproef-1920/wiki/Testen-met-Hannes)
+- [Testen met Roger](https://github.com/ManoukK/meesterproef-1920/wiki/Testen-met-Roger)
+- [Testen met Jesse](https://github.com/ManoukK/meesterproef-1920/wiki/Testen-met-Jesse)
 
 ### Uitprobeersels
 
