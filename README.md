@@ -1,4 +1,4 @@
-# Meesterproef - Rijksmuseum ticketflow - Product biografie
+# Product biografie - Rijksmuseum ticketflow 
 ### Inhoudsopgave
 
 ### Het team
