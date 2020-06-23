@@ -7,7 +7,7 @@
 * [Github repository & design rationale](#Github-repository-&-design-rationale)
 * [Debriefing & presentaties ](Debriefing-&-presentaties )
 * [Logboek](#Logboek)
-* [Mijn rol binnen het team en het project](#Mijn-rol-binnen-het team-en-het-project)
+* [Mijn rol binnen het team en het project](#Mijn-rol-binnen-het-team-en-het-project)
 * [Het proces](#Het-proces)
 * [De werkwijze](#De-werkwijze)
 * [De planning](#De-planning)
@@ -24,7 +24,9 @@
 - [Manouk Kappé](https://github.com/ManoukK)
 
 ### Github repository & design rationale 
-https://github.com/Mokerstier/Rijksmuseum-Ticketflow
+- [Repository](https://github.com/Mokerstier/Rijksmuseum-Ticketflow)
+- [Design rationale](https://github.com/Mokerstier/Rijksmuseum-Ticketflow/wiki/Design-rationale)
+- [Prototype](https://rijks-ticket-flow.herokuapp.com/)
 
 ### Debriefing & presentaties 
 - [Mijn eigen debriefing](https://github.com/ManoukK/meesterproef-1920/wiki/Debriefing-ticketflow)
