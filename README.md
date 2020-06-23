@@ -35,6 +35,15 @@ Zoals je dus ziet zijn mijn werkzaamheden niet erg technisch. Ik heb me meer ger
 ### De werkwijze 
 
 ### De planning
+Wij, als team, werkte nooit echt met een strakke planning. We maakte issues aan in de repository van het project, zette de namen erbij wie die issues gingen oplossen en we maakte gebruik van het projectbord. 
+
+Elke dag rond half 10 startte we de dag en bespraken we even kort wat je ging doen. Het gebeurde dus ook vaak dat je verder ging waar je gister mee bezig was. Vrijdag nadat het gesprek met Q42 bespraken we wat we de komende week wilde doen en wat we de volgende vrijdag wilde laten zien. Op deze manier kregen we een goede indruk van wat we gingen doen en wie het ging doen. Je zou denken dat dit soort gesprekken worden gevoerd op een maandagochtend alleen voor ons was het fijner om dit gelijk na de feedback van Q42 te bespreken. 
+
+We lieten elkaar altijd even weten als je een issue had opgelost en als je met een nieuwe issue aan de slag ging. Dit werkte heel prettig omdat zo iedereen op de hoogte blijft van de voortgang. 
+
+Later in het proces hadden we onderscheid gemaakt tussen belangrijke en niet belangrijke issues waardoor de planning een klein beetje verschoof. Eerst tackelde we alle belangrijke punten en vervolgens, toen we nog een paar dagen over hadden keken we naar de “extraatjes”. 
+
+Persoonlijk probeerde ik elke dag wel een doel of 3 te stellen. Meestal verkeek ik me op de hoeveelheid werk en was ik er toch veel langer mee bezig dan dat ik zelf dacht. Dit had geen effect op de samenwerking en we kregen hierdoor ook geen achterstand alleen voor mezelf was dat aan het begin wel even frustrerend. Ik merkte al na een week dat ik hier realistischer in werd en kon hierdoor beter inschatten hoe lang ik er mee bezig was. Dit zorgde er dan ook voor dat ik in mijn hoofd er rustiger aan kon gaan zitten. Ik merkde dan ook dat gehaast aan het project zitten voor mij niet heeft gewerkt!
 
 ### Testen met screen reader gebruikers
 Om tot een goed, bruikbaar prototype te komen hebben we getest met 3 verschillende screenreader gebruikers. Ik heb hiervoor een testplan geschreven en was ik ook degene die de gesprekken leidden. Dit was namelijk een van mijn leerdoelen die ik wilde behalen. 
