@@ -17,6 +17,18 @@ Mocht je het niet helemaal willen lezen, hieronder beschrijf ik mijn rol binnen 
 [Bekijk hier mijn Logboek](https://github.com/ManoukK/meesterproef-1920/wiki/Logboek)
 
 ### Mijn rol binnen het team en het project
+Voor dit project heb ik me voornamelijk bezig gehouden met de design vakken binnen deze minor. Dit lag mij sowieso al meer en wilde hier dan ook dieper op ingaan. Omdat ik deze kant interessanter vind ging ik er al een beetje automatisch naar toe. Hieronder vertel ik beknopt waar ik me met dit project heb bezig gehouden. In de loop van mijn product biografie zal ik hier wat dieper op ingaan. 
+- Testplan maken & testen met gebruikers.
+- Semantische html en css (waaronder animaties, reduce motion, hover en focus).
+- Focus element in beeld houden.
+- Onderzoeken doen.
+- Documentatie. Zowel de readme als de design rationale. 
+- Testen met de screen reader in ons prototype.
+- Het implementeren van aria en verder bezig houden met de toegankelijkheid.
+- Samen met Mohamad en Wouter de date picker gemaakt met de data uit de api. 
+
+Zoals je dus ziet zijn mijn werkzaamheden niet erg technisch. Ik heb me meer gericht op de gebruiker, de vriendelijkheid en de toegankelijkheid van ons prototype. 
+
 
 ### Het proces
 
