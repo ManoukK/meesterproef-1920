@@ -101,6 +101,9 @@ Het tweede onderzoek heb ik halverwege dit project gedaan, voordat we begonnen m
 - [Wat we kunnen gebruiken wat betreft toegankelijkheid (Aria onderzoek)](https://github.com/ManoukK/meesterproef-1920/wiki/Wat-kunnen-wij-gebruiken-om-het-toegankelijker-te-maken-(met-aria))
 
 ### Gemaakte schetsen 
+Voor dit project hoefde ik niet veel te schetsen. Veel was al “klaar” en helemaal in de huisstijl  van het Rijksmuseum. Toch heb ik wel een aantal schetsen gemaakt. Bijvoorbeeld voor de ticketflow en het selecteren van de tickets. Dit zijn iets complexere elementen in het project waar Q42 en het Rijksmuseum ook mee worstelde. Ook heb ik schetsjes gemaakt voor de hover en focus states. Dit vond ik makkelijker om eerst even op papier te zetten. In de wiki geef ik wat meer uitleg bij mijn schetsen. 
+
+[Mijn gemaakte schetsen voor dit project](https://github.com/ManoukK/meesterproef-1920/wiki/Schetsen-van-het-project)
 
 ### Design, code en proces reviews
 Per review heb ik een kort stukje beschreven over mijn vragen en welke antwoorden in daarvoor kreeg. Voor de rest bespreek ik ook een klein beetje hoe het gesprek zelf verliep. 
