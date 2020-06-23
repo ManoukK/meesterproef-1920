@@ -1,5 +1,22 @@
 # Product biografie - Rijksmuseum ticketflow 
+
+![Happy Flow van de ticketstraat](https://user-images.githubusercontent.com/33430655/84995585-79f5bc80-b14c-11ea-849b-a1d1b169dc70.gif)
+
 ### Inhoudsopgave
+* [Het team](#Het-team)
+* [Github repository & design rationale](#Github-repository-&-design-rationale)
+* [Debriefing & presentaties ](Debriefing-&-presentaties )
+* [Logboek](#Logboek)
+* [Mijn rol binnen het team en het project](#Mijn-rol-binnen-het team-en-het-project)
+* [Het proces](#Het-proces)
+* [De werkwijze](#De-werkwijze)
+* [De planning](#De-planning)
+* [Testen met screen reader gebruikers](#Testen-met-screen-reader-gebruikers)
+* [Uitprobeersels](#Uitprobeersels)
+* [Onderzoeken](#Onderzoeken)
+* [Gemaakte schetsen](#Gemaakte-schetsen)
+* [Design, code en proces reviews](#Design,-code-en-proces-reviews)
+* [Reflectie](#Reflectie)
 
 ### Het team
 - [Mohamad Al Ghorani](https://github.com/MohamadAlGhorani)
