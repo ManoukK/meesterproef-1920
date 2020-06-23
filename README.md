@@ -11,12 +11,8 @@ https://github.com/Mokerstier/Rijksmuseum-Ticketflow
 
 ### Debriefing & presentaties 
 - [Mijn eigen debriefing](https://github.com/ManoukK/meesterproef-1920/wiki/Debriefing-ticketflow)
-- [Presentatie debriefing]()
-- []()
-- []()
-
-[CV_Manouk_Kappe.pdf](https://github.com/ManoukK/meesterproef-1920/files/4818865/CV_Manouk_Kappe.pdf)
-
+- [Presentatie debriefing (PDF)](https://github.com/ManoukK/meesterproef-1920/files/4818881/Debriefing.pdf)
+- [Eind presentatie (PDF)](https://github.com/ManoukK/meesterproef-1920/files/4818882/Eind.presentatie.ticketflow.pdf)
 
 ### Logboek
 Elke dag heb ik (geprobeerd) bij te houden wat ik die dag heb gedaan. Niet altijd is mij dit even goed gelukt en ik zal misschien sommige dagen ook een paar dingen hebben gedaan die niet in het logboek staan maar zo krijg je wel een goede indruk van mijn dagen. 
