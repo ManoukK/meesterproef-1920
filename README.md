@@ -153,6 +153,52 @@ Het selecteren met enter hebben we alleen toegepast op checkboxes en radio butto
 ```
 </details> 
 
+<details> 
+<summary>Reduce motion</summary>
+<br>
+Voor de ticketflow hadden we een aantal mooie animaties gemaakt voor als iemand hovert of ergens de focus op heeft. Als feedback hierop moesten we ook nadenken voor als mensen geen animaties wilde zien. Hiervoor heb ik de media query reduce motion gebruikt. De animaties heb ik binnen die media query geplaatst en zolang er niet bekend is of iemand dit uit heeft gezet worden de animaties getoont. Als iemand dit wel uit heeft gezet krijgt de gebruiker geen animaties te zien maar wel basis hover en focus styling. Dit heb ik ook getest door mijn animaties uit te zetten en dan op die manier te kijken wat ik miste. Zo heb ik ook getyled voor als je de animaties uit hebt staan. De code hiervoor kan je [hier](https://github.com/Mokerstier/Rijksmuseum-Ticketflow/blob/master/src/css/focus-hover-styling.less) vinden. Het is een best lang stuk code, naar mijn mening iets te lang om het hieronder te tonen. 
+
+</details> 
+
+<details> 
+<summary>Van Buttons naar Div’s</summary>
+<br>
+Tijdens het testen kwamen wij erachter dat een aantal buttons heel overbodig waren voor mensen die gebruik maken met de screenreader. Deze buttons werden eigenlijk alleen geactiveerd als je eroverheen hoverde en we hadden gebruik gemaakt van aria dat als die button de focus heeft iets wordt voorgelezen. Toch dachten mensen tijdens het testen dat zij erop moesten klikken. Als ze dat deden gebeurde er niks (wat klopt) en dat vonden ze heel raar en verwarrend. Dit probleem hebben we met het team besproken en we kwamen op het idee om gewoon divs te gebruiken in plaats van buttons. Deze hebben we omgezet en alles werkte nog zoals we het bedoelde. 
+
+Ik laat hier geen code zien want dat is niet zo interessant. Het enige wat veranderde van de button tag naar een div tag. 
+
+</details> 
+
+<details> 
+<summary>Formulier stylen</summary>
+<br>
+Het probleem bij het stylen van het formulier in stap 5 was dat het standaard op rood stond. Dat komt omdat alle inputs required zijn en als er niks is ingevuld is dat “slecht”. Ik had al gebruik gemaakt van :valid en :invalid. Deze heb ik een groene en rode styling gegeven. De default heb ik gestyled met :placeholder-shown. Als de placeholder zichtbaar is dan word deze styling dus toegepast. Hierdoor moest het hele formulier wel een placeholder hebben maar dat was niet storend.
+   
+```css
+form[action="/zesde-stap"] section > fieldset > input:valid,
+form[action="/zesde-stap"] #country:valid {
+    background-color: #e8ffd9;
+    border: 2px solid #8cc152;
+}
+
+form[action="/zesde-stap"] section > fieldset > input:invalid,
+form[action="/zesde-stap"] #country:invalid {
+    background-color: #feedec;
+    border: 2px solid #da4453;
+}
+
+form[action="/zesde-stap"] section > fieldset > input:placeholder-shown {
+    background-color: white;
+    border: 2px solid #718875;
+}
+```
+
+![Schermafbeelding 2020-06-25 om 15 02 51](https://user-images.githubusercontent.com/45541885/85725038-0aa43d80-b6f5-11ea-8eca-d49742a9a026.png)
+
+![Schermafbeelding 2020-06-25 om 15 03 17](https://user-images.githubusercontent.com/45541885/85725055-0d9f2e00-b6f5-11ea-8ed6-f0f0f24510de.png)
+
+</details> 
+
 
 
 ### Uitprobeersels
