@@ -92,9 +92,11 @@ Ik maakte me aan het begin nog wel zorgen over het testen. Vooral omdat dit remo
 - [Testen met Jesse](https://github.com/ManoukK/meesterproef-1920/wiki/Testen-met-Jesse)
 
 ### Code
+Ik ben niet van plan alle code van dit project uit te leggen die ik heb geschreven. Zo heb ik bijna alle css geschreven, waarvan het meeste niet interessant is. Daarom licht ik hieronder een aantal stukken code uit die (voor mij) wat interessanter zijn. Hier zitten ook geslaagde uitprobleersels tussen. 
 
 <details>
 <summary>Datepicker</summary>
+<br>
 Wij hebben met z’n drieën aan de datepicker gezeten. Ik wilde heel graag leren hoe zoiets in elkaar zit en daarom ben ik de code gaan “schrijven”. Het was meer dat Mohamad en Wouter vertelde wat ik moest schrijven omdat ik dit kennis nog niet had en hierdoor heb ik ontzettend veel geleerd! Om de datepicker optimaal te laten werken hebben we het verbonden aan de api van het rijksmuseum. Zo heeft jouw aantal gekozen tickets en de rondleiding effect op de dagen en tijden van de datepicker. Omdat elke keuze ook weer effect heeft op de volgende vraag komen pas de “antwoorden” voor de volgende vraag naar voren als je een keuze hebt gemaakt op deze vraag. Als jij graag op donderdag 25 juni wilt krijg je andere tijden naar voren dan als je op vrijdag 26 juni wilt. Wij hebben gewerkt in modules en de code van de datepicker staat dan ook in een aparte javascript bestand. Omdat het ontzettend veel code is link ik hieronder het bestand. 
 
 [De code van de datepicker](https://github.com/Mokerstier/Rijksmuseum-Ticketflow/blob/master/src/js/datePicker.js)
@@ -126,6 +128,32 @@ Terwijl ik zelf de focus in ons prototype aan het testen was, vond ik het irrita
     };
 ```
 </details>
+
+<details> 
+<summary>Selecteren met enter</summary>
+<br>
+Een van de punten die we uit het testen haalde was dat er behoefte is om met enter te selecteren. Dit komt vanuit de gewoonte dat je op knoppen kan klikken met enter. Mohamad en ik hebben dit toegepast en nu kan je met enter selecteren maar ook met spatie, wat de standaard knop daarvoor is. 
+
+Het selecteren met enter hebben we alleen toegepast op checkboxes en radio buttons. Op linkjes is dit al mogelijk. Het probleem was dat als we een algemene code hiervoor schreven je ook naar de volgende pagina ging als je een checkbox selecteerde, checkboxes en radiobuttons reageren dan ineens als linkjes. Dit is natuurlijk niet wat we wilde en hebben daarom een preventDefault op gezet. Alleen dan had je het probleem weer dat je niet naar de volgende pagina kon met een linkje. Daarom hebben we in de code alleen gefilterd op checkboxes en radiobuttons om deze problemen te voorkomen.
+
+```js
+    window.addEventListener("keypress", function(e){
+        enter(e)
+    })
+
+    function enter(e){
+        if(e.key == "Enter"){
+            let focus = document.activeElement
+            if(focus.attributes.type.nodeValue == "checkbox" || "radio"){
+                e.preventDefault()
+                focus.click()
+            }
+        }
+    }
+```
+</details> 
+
+
 
 ### Uitprobeersels
 
