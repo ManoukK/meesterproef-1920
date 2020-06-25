@@ -192,9 +192,10 @@ form[action="/zesde-stap"] section > fieldset > input:placeholder-shown {
     border: 2px solid #718875;
 }
 ```
-
+##### Default fomrulier 
 ![Schermafbeelding 2020-06-25 om 15 02 51](https://user-images.githubusercontent.com/45541885/85725038-0aa43d80-b6f5-11ea-8eca-d49742a9a026.png)
 
+##### Nadat je gegevens hebt ingevult 
 ![Schermafbeelding 2020-06-25 om 15 03 17](https://user-images.githubusercontent.com/45541885/85725055-0d9f2e00-b6f5-11ea-8ed6-f0f0f24510de.png)
 
 </details> 
