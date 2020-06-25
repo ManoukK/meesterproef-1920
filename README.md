@@ -296,6 +296,35 @@ het eerste probleem die mensen tegen kwamen tijdens het testen was dat het a-lin
 </details> 
 
 ### Uitprobeersels
+Hieronder vind je de probeersels die niet in dit project zitten. De redenen zijn eigenlijk allemaal hetzelfde. Het werkt helaas niet. Omdat het niet ondersteund wordt door (bijna) alle browsers of omdat het de internet regels overschrijdt. 
+
+<details> 
+<summary>Inverted colors</summary>
+<br>
+Tijdens het testen met Roger vertelde hij dat hij de navigatie moeilijk kon zien. Roger maakt gebruik van de screenreader maar is niet volledig blind. Door veel in te zoomen kan hij nog wel (met moeite) lezen. Hij heeft in zijn settings aan staan dat alle kleuren inverted moet zijn. Dit is prettiger voor zijn ogen omdat hij gevoelig is voor licht. Omdat onze navigatie een zwarte achtergrond had en de bezochte stappen groen waren, was dit niet zo’n handige combinatie om te inverten. Om dit op te lossen wilde van de media query gebruik maken die naar deze setting kijkt. Mohamad en ik waren hier mee bezig en het werkte steeds maar niet. Toen zijn we op caniuse.com gaan kijken en het blijkt dat dit heel slecht word ondersteund. [Zie hier het resultaat](https://caniuse.com/#search=inverted-colors). Om deze reden hebben we dit uiteindelijk er maar niet ingezet. 
+
+</details> 
+
+<details> 
+<summary>Alles met de tab bereiken</summary>
+<br>
+Tijdens het testen kregen we te horen dat mensen het prettig vinden om alles met de tab te kunnen bereiken. Ook de checkboxes en radio buttons. Dit wilde wij implementeren maar het was gek genoeg gewoon onmogelijk om dit voor elkaar te werken. Radio buttons moet je gewoon altijd met de pijltjes selecteren. Deze ontdekking bracht ons wel in een lastig conflict. De mensen bij wie we dat zagen hebben weinig ervaring met de screenreader en weten niet beter dan de tab te gebruiken alleen niet alles kan je dus met de tab bereiken. Wij hebben er voor gekozen om bij dit soort punten een instructie te geven dat ze nu verder moeten navigeren met de pijltjes toetsen. Dit is niet ideaal maar tijdens het testen was het niet heel erg. Je moet alleen wel hopen dat mensen de screenreader laten uitlezen voordat ze iets doen en dat is wel een grote gok. Toch hebben we wel iets gedaan aan het probleem en het zou mooi zijn als we later een betere oplossing hiervoor bedenken. 
+
+Deze informatie hebben we in de legend gezet want dit word voorgelezen zodra iemand de fieldset binnen komt. 
+
+```html
+<legend aria-label="Plan hier jouw bezoek voor het Rijksmuseum. Kies uit <%=availableExpoId.length%> opties met de pijltjes toetsen.">Plan hier jouw bezoek voor het Rijksmuseum</legend>
+```
+</details> 
+
+<details> 
+<summary>Focus-visible</summary>
+<br>
+
+Terwijl ik bezig was met de focus irriteerde ik me eraan dat elke keer als ik de muis gebruik, ik ook de focus zag als ik ergens op klikte. Dit wilde ik niet. Vasilis gaf me als tip om gebruik te maken van focus-visible. Na heel lang proberen kwam ik erachter dat het heel slecht ondersteund wordt. [Kijk hier maar](https://caniuse.com/#search=focus-visible). Ik ben toen verder gaan kijken en kwam een library tegen die ervoor zorgt dat dit wel op elke browser werkt. Het gebruik maken van een library werd helaas door een code docent afgeraden en heb me er toch maar bij neergelegd dat je zo nu en dan een ronde border ziet. 
+
+Als dit een losstaand project was, dus niet vanuit school, dan had ik zeker die library gebruikt. Of in ieder geval gepitcht bij de opdrachtgevers. 
+</details> 
 
 ### Onderzoeken
 Voor dit project heb ik twee onderzoeken gedaan die waardevol waren. De eerste onderzoek gaat over de huidige ticketflow van het Rijksmuseum en hoe toegankelijk deze is voor de screenreader. Dankzij dit onderzoek kregen wij een goede eerste indruk wat zich nu afspeelt en wat wij moeten verbeteren. Ook heeft dit ons goed geholpen met de eerste stappen zetten naar een toegankelijke en vriendelijke ticketflow. 
