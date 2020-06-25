@@ -105,6 +105,7 @@ Wij hebben met z’n drieën aan de datepicker gezeten. Ik wilde heel graag lere
 <br>
 Terwijl ik zelf de focus in ons prototype aan het testen was, vond ik het irritant dat de focus op een gegeven moment uit beeld ging. Voor blinden mensen is dit natuurlijk niet erg, zij horen wel waar ze zijn en hoe ze verder kunnen komen. Alleen er zijn ook mensen die wel kunnen zien en ook gebruik maken de focus en toetsenbord. Zoals ik het al irritant vind kon ik me goed voorstellen dat het voor hen ook heel vervelend zou zijn. Daarom heb ik een scroll into view code gebruikt zodat de focus altijd in beeld blijft. Het stukje code heb ik [hier](https://stackoverflow.com/questions/34672091/center-focused-element-of-webpages-vertically) gevonden en deze heb ik ook gebruikt. Deze code heb ik wel geupdate want het was verouderd waardoor het eerst niet werkte.
 
+
 ```js
    document.documentOffsetTop = function () {
         return this.offsetTop + ( this.offsetParent ? this.offsetParent.documentOffsetTop() : 0 );
