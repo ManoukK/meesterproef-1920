@@ -172,7 +172,8 @@ Ik laat hier geen code zien want dat is niet zo interessant. Het enige wat veran
 <details> 
 <summary>Formulier stylen</summary>
 <br>
-Het probleem bij het stylen van het formulier in stap 5 was dat het standaard op rood stond. Dat komt omdat alle inputs required zijn en als er niks is ingevuld is dat “slecht”. Ik had al gebruik gemaakt van :valid en :invalid. Deze heb ik een groene en rode styling gegeven. De default heb ik gestyled met :placeholder-shown. Als de placeholder zichtbaar is dan word deze styling dus toegepast. Hierdoor moest het hele formulier wel een placeholder hebben maar dat was niet storend.
+Het probleem bij het stylen van het formulier in stap 5 was dat het standaard op rood stond. Dat komt omdat alle inputs required zijn en als er niks is ingevuld is dat “slecht”. Ik had al gebruik gemaakt van :valid en :invalid. Deze heb ik een groene en rode styling gegeven. De default heb ik gestyled met :placeholder-shown. Als de placeholder zichtbaar is dan wordt deze styling dus toegepast. Hierdoor moest het hele formulier wel een placeholder hebben maar dat was niet storend.
+   
    
 ```css
 form[action="/zesde-stap"] section > fieldset > input:valid,
@@ -192,14 +193,34 @@ form[action="/zesde-stap"] section > fieldset > input:placeholder-shown {
     border: 2px solid #718875;
 }
 ```
-##### Default fomrulier 
+#### Default fomrulier 
 ![Schermafbeelding 2020-06-25 om 15 02 51](https://user-images.githubusercontent.com/45541885/85725038-0aa43d80-b6f5-11ea-8eca-d49742a9a026.png)
 
-##### Nadat je gegevens hebt ingevult 
+#### Nadat je gegevens hebt ingevult 
 ![Schermafbeelding 2020-06-25 om 15 03 17](https://user-images.githubusercontent.com/45541885/85725055-0d9f2e00-b6f5-11ea-8ed6-f0f0f24510de.png)
 
 </details> 
 
+<details> 
+<summary>Hover en focus</summary>
+<br>
+Ik heb veel verschillende hover en focus styling/animaties gemaakt. De code hiervan kan je [hier](https://github.com/Mokerstier/Rijksmuseum-Ticketflow/blob/master/src/css/focus-hover-styling.less) vinden. De code zelf is niet erg bijzonder vind ik zelf. Ik vind het vooral belangrijk dat ik heb nagedacht over de consistentie tussen hover en focus. Deze tip kreeg ik van Vasilis en eigenlijk moet je er vanuit gaan dat de hover een minder opvallende styling is van focus. Om dit te creëren ben ik ook gaan schetsen, gewoon op papier. Wij maken gebruik van veel verschillende onderdelen die niet allemaal hetzelfde zijn. Ik heb dan ook besloten om hiervoor andere animaties en styling te maken. De basis focus is wel bijna altijd hetzelfde, een opvallende border om het element heen wat de focus heeft. 
+
+#### Hover
+![Schermafbeelding 2020-06-25 om 15 15 53](https://user-images.githubusercontent.com/45541885/85727161-12fd7800-b6f7-11ea-8b07-a05ef41958b7.png)
+#### Focus
+![Schermafbeelding 2020-06-25 om 15 16 01](https://user-images.githubusercontent.com/45541885/85727167-14c73b80-b6f7-11ea-814e-f5ebf58dbefb.png)
+
+#### Hover
+![Schermafbeelding 2020-06-25 om 15 16 36](https://user-images.githubusercontent.com/45541885/85727309-2f99b000-b6f7-11ea-9c77-ad47f1b66943.png)
+#### Focus
+![Schermafbeelding 2020-06-25 om 15 16 43](https://user-images.githubusercontent.com/45541885/85727324-3294a080-b6f7-11ea-977c-9a3cc01b21af.png)
+
+#### Hover
+![Schermafbeelding 2020-06-25 om 15 17 07](https://user-images.githubusercontent.com/45541885/85727390-40e2bc80-b6f7-11ea-8e26-fb90d127578c.png)
+#### Focus
+![Schermafbeelding 2020-06-25 om 15 17 01](https://user-images.githubusercontent.com/45541885/85727404-43ddad00-b6f7-11ea-8001-7f135e5ab8ac.png)
+</details> 
 
 
 ### Uitprobeersels
