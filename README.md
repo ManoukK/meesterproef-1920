@@ -222,6 +222,78 @@ Ik heb veel verschillende hover en focus styling/animaties gemaakt. De code hier
 ![Schermafbeelding 2020-06-25 om 15 17 01](https://user-images.githubusercontent.com/45541885/85727404-43ddad00-b6f7-11ea-8001-7f135e5ab8ac.png)
 </details> 
 
+<details> 
+<summary>ARIA: Informatie button laten voorlezen</summary>
+<br>
+Wij wilde dat de informatie button werd getriggerd zodra daar de focus op staat. Zo wilde we voorkomen dat deze informatie word geskipt. Dit hebben wij gedaan met aria-describedby. Dit werkt aan de hand van een bijhorende ID zodat de screenreader weet welke content moet worden voorgelezen als hier de focus op ligt. Dit werkt erg goed. Helaas werkt elke screenreader natuurlijk anders en kwamen we tijdens 1 test erachter dat het dus niet altijd werkt. Het is natuurlijk erg lastig om dit ook weer te testen, vooral met de korte tijd die wij nog hadden. Toch vind ik het wel interessant en belangrijk om te weten dat ook hier, in screenreaders, weer verschillen zitten. 
+```html
+<div aria-label="extra informatie" tabindex="0" type="button" class="iBtn" aria-describedby="tooltip<%= a %>">i</div>
+<p class="tooltip" id="tooltip<%= a %>"><%= articlesAdditional[a].Description %></p>
+```
+</details> 
+
+<details> 
+<summary>Het voor laten lezen van de prijzen en het aantal tickets</summary>
+<br>
+Om mensen die niet of slecht kunnen zien op de hoogte te houden. Hebben we ervoor gezorgd dat de prijzen, totaal aantal geselecteerde tickets en het totaalbedrag wordt voorgelezen door de screenreader.
+
+Dankzij de aria-controls zeggen wij dat die een relatie heeft met de section waarin de prijzen worden berekend en weer gegeven. Elke keer als er iets veranderd worden de nieuwe waardes voorgelezen. 
+```html
+<select aria-label="Aantal <%= articles[a].Name %>" aria-controls="ticketInfo" name="ticketType[<%-a%>]" id="">
+```
+
+Om het voor de screenreader en voor mensen die wel zien alle informatie duidelijk te maken hebben we een aantal spans "onzichtbaar" gemaakt. Ze zijn er nog wel en worden door de screenreader voorgelezen alleen je kan ze niet meer zien. Zo is bijvoorbeeld dit stukje: <span>en</span> niet zichtbaar op de website maar omdat het ook goed moet klinken hebben we dit er wel in gezet. 
+
+```html
+<section id="ticketInfo">
+    <p> 
+        <% if(ticketCount){ %>
+            <output id="aantal-first-step" class="block-right" role="status" aria-live="polite"> <span></span> Totaal aantal tickets: <%= ticketCount %></output>
+        <% } else { %>
+            <output id="aantal-first-step" class="block-right" role="status" aria-live="polite"> <span></span></output>
+        <% } %>
+        </p>  
+        <p>
+            <% if(totalPrice){ %>
+            <output id="total-first-step" class="block-right" role="status" aria-live="polite" data-price-raw="<%=totalPriceRaw%>"> <span>en</span> Totale prijs: <%= totalPrice %></output>
+            <% } else { %>
+                <output id="total-first-step" class="block-right" role="status" aria-live="polite"> <span>en</span> Totale prijs: €38.00</output>
+            <% } %>
+        </p>
+        <% if(startTimeChoice !== null){ %>
+        <p>
+            <output id="start-time-choice" class="block-right" role="status" aria-live="polite"> <span>gereserveerde</span>Datum: <date><%= new Date(startTimeChoice).toLocaleString() %></date></output>
+        </p>
+        <% } %> 
+</section>
+```
+</details> 
+
+<details> 
+<summary>ARIA: de countdown aankondigen</summary>
+<br>
+Om je bestelling af te ronden heb je 25 minuten de tijd. Dit is ook belangrijk om te weten als je blind bent natuurlijk! Voor deze informatie hebben wij gebruik gemaakt van aria alert. Deze kondigt aan dat je 25 minuten hebt als je op deze pagina komt. Het is ook niet te missen want het wordt verteld zodra je op de pagina komt. Dit kan misschien agressief overkomen maar de mensen bij het testen hadden er geen last van. 
+
+```html
+<section class="timeCountdown">
+   <p role="alert">Je hebt voor <date><%= new Date(startTimeChoice).toLocaleString() %></date>, <%= ticketCount %> tickets gereserveerd, uw reservering vervalt na <time datetime="00:25">25:00</time> minuten</p>
+</section>
+```
+</details> 
+
+<details> 
+<summary>ARIA: binnen een link niet alles laten voorlezen</summary>
+<br>
+het eerste probleem die mensen tegen kwamen tijdens het testen was dat het a-linkje in de eerste stap heel onduidelijk was. Dit kwam omdat de inhoud werd voorgelezen en het begon al met een plaatje waar blinde mensen niks aan hebben. We hadden de link een title gegeven met de gedachte dat alleen die dan werd voorgelezen door de screenreader maar dit was niet zo. We hebben besloten om een aria-label er aan toe te voegen, wat ervoor zorgt dat de rest van de inhoud niet meer wordt voorgelezen. Dit werkte heel goed en we kregen hierdoor ook de mogelijkheid iets duidelijker te zijn door bijvoorbeeld “klik hier” erachter te zetten. De volgende tester wist dan ook gelijk wat hij moest doen en raakte helemaal niet in de war van de verdere inhoud van de link. 
+
+```html
+<a aria-label="Kom je alleen? klik hier." class="only-flow-link" href="/tweede-stap?groupChoice=only&javascript=0" title="Alleen op je eigen tempo">
+   <img src="/assets/images/RijksFotos/tourtype3special.jpg" alt="Een foto een vrouw in het rijksmuseum die kijkt naar een schilderij">
+   <h3>Alleen op je eigen tempo</h3>
+</a>
+```
+
+</details> 
 
 ### Uitprobeersels
 
