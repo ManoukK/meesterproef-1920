@@ -92,10 +92,13 @@ Ik maakte me aan het begin nog wel zorgen over het testen. Vooral omdat dit remo
 - [Testen met Jesse](https://github.com/ManoukK/meesterproef-1920/wiki/Testen-met-Jesse)
 
 ### Code
-#### Datepicker 
+
+<details>
+<summary>Datepicker</summary>
 Wij hebben met z’n drieën aan de datepicker gezeten. Ik wilde heel graag leren hoe zoiets in elkaar zit en daarom ben ik de code gaan “schrijven”. Het was meer dat Mohamad en Wouter vertelde wat ik moest schrijven omdat ik dit kennis nog niet had en hierdoor heb ik ontzettend veel geleerd! Om de datepicker optimaal te laten werken hebben we het verbonden aan de api van het rijksmuseum. Zo heeft jouw aantal gekozen tickets en de rondleiding effect op de dagen en tijden van de datepicker. Omdat elke keuze ook weer effect heeft op de volgende vraag komen pas de “antwoorden” voor de volgende vraag naar voren als je een keuze hebt gemaakt op deze vraag. Als jij graag op donderdag 25 juni wilt krijg je andere tijden naar voren dan als je op vrijdag 26 juni wilt. Wij hebben gewerkt in modules en de code van de datepicker staat dan ook in een aparte javascript bestand. Omdat het ontzettend veel code is link ik hieronder het bestand. 
 
 [De code van de datepicker](https://github.com/Mokerstier/Rijksmuseum-Ticketflow/blob/master/src/js/datePicker.js)
+</details>
 
 <details>
 <summary>Scroll into view</summary>
