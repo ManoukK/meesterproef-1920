@@ -388,7 +388,7 @@ Naast de semantische html heb ik wel veel nagedacht over bepaalde dingen die nie
 Dit is wel echt een principe wat je in het proces heel snel kan vergeten. Ik ben het nog niet gewend om op die manier te werk te gaan waardoor ik automatisch snel naar css en javascript stap. Het is ook nog eens zo dat in de praktijk de opdrachtgever of leidinggevende af en toe mee kijkt. Nu was het elke vrijdag online maar ik kan me ook goed voorstellen dat je op kantoor de druk voelt om al snel iets moois te maken met css en javascript, die druk al ik althans wel voelen. 
 
 #### Leerdoel 2. Een test opzetten
-![Schermafbeelding 2020-06-26 om 12 14 42](https://user-images.githubusercontent.com/45541885/85846848-c07b9480-b7a6-11ea-88f5-bdd7c46ffbd7.png)estopzet wordt behandeld.
+![Schermafbeelding 2020-06-26 om 12 14 42](https://user-images.githubusercontent.com/45541885/85846848-c07b9480-b7a6-11ea-88f5-bdd7c46ffbd7.png)
 
 Een van de dingen wat ik echt graag wilde leren was het testen van ons prototype. Ik was voorheen nog niet zo zeker over mijn test-kunsten maar na dit project is daar wel verandering in gekomen. Voor het testen heb ik een testplan gemaakt. Die is misschien wat te uitgebreid voor het testen zelf maar ik vond het wel fijn om wat extra informatie te vertellen over dit project voor als het Rijksmuseum of Q42 het testplan ook wilde lezen. 
 
