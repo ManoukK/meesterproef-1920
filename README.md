@@ -226,6 +226,7 @@ Ik heb veel verschillende hover en focus styling/animaties gemaakt. De code hier
 <summary>ARIA: Informatie button laten voorlezen</summary>
 <br>
 Wij wilde dat de informatie button werd getriggerd zodra daar de focus op staat. Zo wilde we voorkomen dat deze informatie word geskipt. Dit hebben wij gedaan met aria-describedby. Dit werkt aan de hand van een bijhorende ID zodat de screenreader weet welke content moet worden voorgelezen als hier de focus op ligt. Dit werkt erg goed. Helaas werkt elke screenreader natuurlijk anders en kwamen we tijdens 1 test erachter dat het dus niet altijd werkt. Het is natuurlijk erg lastig om dit ook weer te testen, vooral met de korte tijd die wij nog hadden. Toch vind ik het wel interessant en belangrijk om te weten dat ook hier, in screenreaders, weer verschillen zitten. 
+   
 ```html
 <div aria-label="extra informatie" tabindex="0" type="button" class="iBtn" aria-describedby="tooltip<%= a %>">i</div>
 <p class="tooltip" id="tooltip<%= a %>"><%= articlesAdditional[a].Description %></p>
@@ -238,6 +239,7 @@ Wij wilde dat de informatie button werd getriggerd zodra daar de focus op staat.
 Om mensen die niet of slecht kunnen zien op de hoogte te houden. Hebben we ervoor gezorgd dat de prijzen, totaal aantal geselecteerde tickets en het totaalbedrag wordt voorgelezen door de screenreader.
 
 Dankzij de aria-controls zeggen wij dat die een relatie heeft met de section waarin de prijzen worden berekend en weer gegeven. Elke keer als er iets veranderd worden de nieuwe waardes voorgelezen. 
+
 ```html
 <select aria-label="Aantal <%= articles[a].Name %>" aria-controls="ticketInfo" name="ticketType[<%-a%>]" id="">
 ```
