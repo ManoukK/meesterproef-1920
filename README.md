@@ -374,6 +374,45 @@ Voor mezelf wilde ik ook graag de gesprekken met Q42 documenteren. Deze heb ik p
 - [Proces review deel 5](https://github.com/ManoukK/meesterproef-1920/wiki/Proces-review-met-Q42-deel-5)
 
 ### Reflectie
-#### 3 doelen 
+Voor dit project heb ik 3 leerdoelen uitgekozen waar ik wat meer aandacht aan wilde geven. Per leerdoel beschrijf ik hoe het is gegaan en wat het verschil is tussen praktijk en theorie. 
 
-#### Hoe heb ik deze aangepakt 
+#### Leerdoel 1. Progressive enhancement 
+![Schermafbeelding 2020-06-26 om 12 14 33](https://user-images.githubusercontent.com/45541885/85846792-ad68c480-b7a6-11ea-8fdb-237ba86198c2.png)
+
+Dit leerdoel vond ik eerlijk gezegd best moeilijk om aan te houden. Ik merkte dat ik al snel naar css en javascript overstapte. In de eerste week had ik dan ook html met css volledig nagemaakt van hoe de huidige ticketflow eruit ziet.
+
+ Later in het proces zette ik af en toe de css uit en zo kwam ik er ook achter dat ik de navigatie niet zo netjes had gemaakt. Ik had alle linkjes niet netjes in een lijstje gezet. Ook kwam ik erachter dat ik fieldsets had gebruikt met daarin subkopjes. Die konden veel beter een legend tag krijgen. Wat bleek? Dit soort kleine toevoegingen hadden een hele grote, fijne impact voor mensen die met de screenreader werken. Ik wist wel dat semantische html en css goed was voor de toegankelijkheid maar ik had het nooit zelf echt gemerkt. 
+
+Naast de semantische html heb ik wel veel nagedacht over bepaalde dingen die niet overal ondersteunt worden. Zo heb ik bijvoorbeeld gewerkt met focus in plaats van focus-visible (zie uitprobeersels). Niet alleen dat maar ook worden de animaties niet overal ondersteund. Dit is niet erg want je kan ook zonder fancy animaties de website gebruiken. 
+
+Dit is wel echt een principe wat je in het proces heel snel kan vergeten. Ik ben het nog niet gewend om op die manier te werk te gaan waardoor ik automatisch snel naar css en javascript stap. Het is ook nog eens zo dat in de praktijk de opdrachtgever of leidinggevende af en toe mee kijkt. Nu was het elke vrijdag online maar ik kan me ook goed voorstellen dat je op kantoor de druk voelt om al snel iets moois te maken met css en javascript, die druk al ik althans wel voelen. 
+
+#### Leerdoel 2. Een test opzetten
+![Schermafbeelding 2020-06-26 om 12 14 42](https://user-images.githubusercontent.com/45541885/85846848-c07b9480-b7a6-11ea-88f5-bdd7c46ffbd7.png)estopzet wordt behandeld.
+
+Een van de dingen wat ik echt graag wilde leren was het testen van ons prototype. Ik was voorheen nog niet zo zeker over mijn test-kunsten maar na dit project is daar wel verandering in gekomen. Voor het testen heb ik een testplan gemaakt. Die is misschien wat te uitgebreid voor het testen zelf maar ik vond het wel fijn om wat extra informatie te vertellen over dit project voor als het Rijksmuseum of Q42 het testplan ook wilde lezen. 
+
+Voor het testen probeerde ik de tester wat op zijn gemak te stellen door een kort babbeltje te houden. Ik vertelde even over het project en dat de tester hardop mag nadenken en dat niks fout is. Daarna vertelde ik het scenario waarin de tester zich kon inspelen. Dit ging eigenlijk altijd heel goed. Af en toe werden een paar details vergeten zoals de leeftijd van de kinderen maar dat was helemaal niet erg. Dan vertelde ik dat ook gewoon. Per stap vertelde ik de opdracht. Nadat een opdracht was uitgevoerd hadden we het nog even kort over wat er goed en minder goed ging. Dit was wel fijn voor mij en voor de testers zelf want het zat dan nog vers in hun hoofd. Hierdoor kregen we hele goede feedback en konden we duidelijk de issues in kaart brengen. Daarna introduceerde ik de volgende opdracht en zo ging het eigenlijk de hele tijd. Aan het einde had ik ook nog een aantal vragen maar omdat we tijdens het testen al heel veel hadden besproken waren er aan het einde vaak geen op- of aanmerkingen. 
+
+Zoals in de rubric hierboven staat moet ik ook nog een conclusie schrijven met do’s en dont’s voor het testen. Dat heb ik niet gedaan. Dit vind ik ook meer vakgericht en dit zal je ook niet elke keer doen als je een prototype gaat testen met anderen. 
+
+Ik vind wel dat het testen in de praktijk wat moeilijker gaat. Tijdens de vakken testte ik met Larissa. Je had dus al een testpersoon en het was eigenlijk al voorgeschoteld voor je. Het is toch moeilijker om in de praktijk een testpersoon te vinden die blind is en die natuurlijk tijd heeft. Ik ben dan ook heel dankbaar dat Vasilis en Q42 ons hebben geholpen met het zoeken naar testpersonen want anders was het ons nooit gelukt! Daarnaast was het tijdens het testen zelf ook lastig dat het remote moest. Het was lastig voor de testpersonen om in de meeting te komen en heb dan ook aan de telefoon instructies moeten geven. Helemaal niet erg natuurlijk maar voor diegene wel vervelend dat het allemaal zo lastig moet. Dit motiveert mij wel om hiermee door te blijven gaan. Het is toch eigenlijk erg dat je iemand moet bellen omdat het zelf niet lukt?
+
+Ondanks dat het soms wat moeilijk ging vond ik het echt super leuk om te doen. Ik vond het heel interessant om te kijken hoe zij het web gebruiken en het was dan ook af en toe echt pijnlijk om niet in te haken en te reageren. Ik moest me dan ook echt wel inhouden maar het lukte goed. Vaak aan het einde van een opdracht als het echt helemaal mis ging en nadat ik doorvroeg over de situatie, legde ik wel uit wat onze bedoeling ervan was. De testpersonen vonden dat wel fijn om zo een beeld te krijgen van onze ideeën erachter. 
+
+#### Leerdoel 3. Toegankelijkheid
+![Schermafbeelding 2020-06-26 om 12 14 49](https://user-images.githubusercontent.com/45541885/85846881-cd988380-b7a6-11ea-8f11-1f6441ab3af8.png)
+
+Met de algemene toegankelijkheid van de gebruiker heb ik me best veel mee bezig gehouden. Als ik nieuwe kleuren wilde toevoegen keek ik altijd hoe het eruit ziet als je kleurenblind bent. Ook probeerde ik het contrast zo groot mogelijk te houden. Dit was vooral van belang bij de hover maar ook voor de focus. Dat moest ten alle tijden het duidelijkst zijn op de website. 
+
+De user experience en de toegankelijkheid was sowieso heel belangrijk voor dit project maar ik ben van mening dat we en ik ook dit goed hebben aangepakt. Er is getest, de website is te besturen met het toetsenbord en we proberen het zo vriendelijk mogelijk te houden. 
+
+feedback naar de gebruiker toe probeerde ik ook te geven met kleuren. Voornamelijk in het formulier in stap 5. Achteraf echt helemaal niet handig voor mensen met kleurenblind! Met vorm of tekst had ik dit ook veel duidelijker moeten aangeven. 
+
+Persoonlijk vind ik dit een lastig punt om altijd aan te houden. Aan het begin dacht ik hier vurig over na maar in de laatste week was ik dit helemaal vergeten. We waren heel druk en we moesten het af hebben. Hierdoor ben ik dus achteraf ook helemaal niet tevreden met hoe ik dat formulier in stap 5 heb aangepakt. Het is vervelend dat je dit in de praktijk snel vergeet uit haast en druk. Terwijl dit juist zo belangrijk is. 
+
+#### Eindconclusie
+Na dit project en het schrijven van mijn leerdoelen schrok ik eigenlijk van hoeveel dingen ik tijdens het project beter had kunnen doen om het voor iedereen nog prettiger te maken. Ik schrik hiervan omdat dit dus zo makkelijk te vergeten is. In een project op school focus je hier dan het hele project op maar wanneer er ook andere dingen van te pas komen in een groter project voelt dit ineens zo onbelangrijk terwijl dat helemaal niet zo is. 
+
+Ik begrijp heel goed dat het web niet toegankelijk is want of dit word niet geleerd, of dit word snel vergeten en onbelangrijk voor jouw leidinggevende en/of opdrachtgever. Ik wil hier zelf verandering in brengen. Ik wil mezelf aanleren om na te denken over mensen anders dan ikzelf. Dat reduce motion wel belangrijk is of dat de kleuren, vormen en teksten ook goed werken voor mensen die (kleuren) blind zijn. Zo had ik ook nog nooit nagedacht over de inverted colors waar Roger mee werkte. 
+Ik ben hiermee al wel op de goede weg maar toch heb ik hier nog veel over te leren. Niet alleen om dit in de praktijk en in de projecten brengen maar ook dit soort punten bespreken met mijn toekomstige leidinggevende en opdrachtgevers. De toegankelijkheid op het web heeft nog een lange weg te gaan maar desalniettemin wil ik hier aan mee helpen en misschien ook wel anderen inspireren om hier aandacht aan te geven. Net zoals deze minor maar vooral Vasilis dit bij mij heeft gedaan. 
